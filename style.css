@@ -1,0 +1,22 @@
+body {
+    display:flex
+    
+}
+
+.topo {
+    align-items: center;
+}
+
+.header {
+    background-color: aqua;
+    width: 1295px;
+    height: 100px;
+}
+
+.body {
+    justify-content: space-evenly;
+}
+
+.nav {
+    background-color: ;
+}
