@@ -1,22 +1,54 @@
-body {
-    display:flex
-    
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1 {
+    font-family: ROBOTO;
+    margin: 30px;
+}
+
+body{
+    color: white;
 }
 
 .topo {
+        display: flex;
     align-items: center;
-}
-
-.header {
+    margin: 20px;
+  }
+  
+  .header {
     background-color: aqua;
-    width: 1295px;
+    width: 1200px;
     height: 100px;
-}
-
-.body {
+  }
+  
+  .body {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-}
+  }
+  
+  .nav {
+    color: gray;
+    width: 250px;
+    height: 550px;
+    background-color: rgb(24, 223, 107);
+  }
 
-.nav {
-    background-color: ;
-}
+  .main {
+    background-color: rgb(255, 0, 212);
+    height: 550px;
+    width: 620px;
+  }
+
+
+  .baixo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer {
+    background-color: aqua;
+    width: 1165px;
+    height: 120px;
+  }
